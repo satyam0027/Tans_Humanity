@@ -1587,6 +1587,26 @@ h4 {
   color: var(--color-terracotta);
 }
 
+.contact-email {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.55rem;
+  margin-bottom: var(--space-lg);
+  font-size: var(--text-sm);
+  font-weight: 600;
+  color: var(--color-terracotta-dark);
+  transition: color 0.2s ease;
+}
+
+.contact-email:hover {
+  color: var(--color-terracotta);
+}
+
+.contact-email .contact-address-icon {
+  margin-top: 0;
+}
+
 .social-label {
   margin-bottom: var(--space-sm);
   font-size: var(--text-sm);
@@ -1686,6 +1706,15 @@ h4 {
   font-size: var(--text-xs);
   color: #b9b3aa;
   line-height: 1.55;
+}
+
+.footer-address a {
+  color: var(--color-terracotta);
+  transition: color 0.2s ease;
+}
+
+.footer-address a:hover {
+  color: #e9a66e;
 }
 
 .footer-nav ul {

@@ -288,7 +288,7 @@
       ].join("\n");
 
       window.location.href =
-        "mailto:hello@voiceofpeace.org?subject=" +
+        "mailto:contact@tanshumanityfoundation.com?subject=" +
         encodeURIComponent(subject) +
         "&body=" +
         encodeURIComponent(body);
