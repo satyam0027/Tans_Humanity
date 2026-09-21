@@ -145,7 +145,7 @@
   });
 
   /* ----- Active nav highlighting ----- */
-  var sectionIds = ["about", "journey", "what-we-do", "principles", "get-involved", "contact"];
+  var sectionIds = ["about", "journey", "what-we-do", "regional-events", "principles", "get-involved", "contact"];
   var navLinks = Array.prototype.slice.call(document.querySelectorAll('.nav-desktop a[href^="#"]'));
 
   function setActiveNav(id) {
