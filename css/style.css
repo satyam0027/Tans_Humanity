@@ -365,7 +365,7 @@ h4 {
 .logo-mark {
   display: block;
   width: auto;
-  height: 3.6rem;
+  height: 4.2rem;
   object-fit: contain;
   background: transparent !important;
   border: none;
@@ -1869,7 +1869,7 @@ h4 {
   .logo img,
   .logo-mark {
     width: auto;
-    height: 4.1rem;
+    height: 4.8rem;
   }
 
   .logo-name {
