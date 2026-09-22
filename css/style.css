@@ -41,7 +41,7 @@
   --space-2xl: 3rem;
   --space-3xl: 4.5rem;
   --space-4xl: 6.5rem;
-  --header-h: 4.5rem;
+  --header-h: 5.2rem;
   --container: 1200px;
   --gutter: 1.25rem;
 
@@ -340,7 +340,7 @@ h4 {
 }
 
 .site-header.is-scrolled {
-  height: 4rem;
+  height: var(--header-h);
   background: rgba(250, 247, 242, 0.94);
   box-shadow: 0 8px 24px rgba(35, 35, 35, 0.06);
   backdrop-filter: blur(14px);
@@ -374,6 +374,7 @@ h4 {
   padding: 0;
   outline: none;
   flex-shrink: 0;
+  transition: height 0.3s var(--ease);
 }
 
 .logo-text {
@@ -1859,7 +1860,7 @@ h4 {
 @media (min-width: 640px) {
   :root {
     --gutter: 1.75rem;
-    --header-h: 5rem;
+    --header-h: 5.8rem;
   }
 
   .section {
